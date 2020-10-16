@@ -59,13 +59,13 @@ func (master *Master) WatchWorkers() {
 				info := NodeToWorkerInfo(ev.Kv.Value)
 				if _, ok := master.members[key]; ok {
 					log.Println("Update worker ", info.Name)
-					master.UpdateWorker(key,info)
+					master.UpdateWorker(key, info)
 				} else {
 					log.Println("Add worker ", info.Name)
 					master.AddWorker(key, info)
 				}
 
-			} else if ev.Type.String() == "DELETE" {  // del 方法
+			} else if ev.Type.String() == "DELETE" { // del 方法
 				log.Println("Delete worker ", key)
 				delete(master.members, key)
 			}
@@ -74,8 +74,7 @@ func (master *Master) WatchWorkers() {
 
 }
 
-
-func (master *Master) AddWorker(key string,info *WorkerInfo) {
+func (master *Master) AddWorker(key string, info *WorkerInfo) {
 	member := &Member{
 		InGroup: true,
 		IP:      info.IP,
@@ -99,13 +98,3 @@ func NodeToWorkerInfo(value []byte) *WorkerInfo {
 	}
 	return info
 }
-
-
-
-
-
-
-
-
-
-

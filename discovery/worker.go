@@ -11,26 +11,24 @@ import (
 
 // WorkerInfo is the service register information to etcd
 type WorkerInfo struct {
-	IP      string
-	Name    string
-	CPU     int
+	IP   string
+	Name string
+	CPU  int
 }
-
 
 // Worker Node
 type Worker struct {
 	Name string
-	IP string
-	API *client.Client
+	IP   string
+	API  *client.Client
 }
-
 
 // NewWorker method.
 func NewWorker(name, IP string, endpoints []string) *Worker {
 
 	// etcd 配置
-	cfg := client.Config {
-		Endpoints: endpoints,
+	cfg := client.Config{
+		Endpoints:   endpoints,
 		DialTimeout: 5 * time.Second,
 	}
 
@@ -41,12 +39,11 @@ func NewWorker(name, IP string, endpoints []string) *Worker {
 	}
 
 	// 创建 worker
-	worker := &Worker {
-		Name:    name,
-		IP:      IP,
-		API: etcdClient,
+	worker := &Worker{
+		Name: name,
+		IP:   IP,
+		API:  etcdClient,
 	}
-
 
 	return worker
 }
@@ -80,27 +77,3 @@ func (worker *Worker) HeartBeat() {
 		time.Sleep(time.Second * 3)
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

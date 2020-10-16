@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d7e4bb7e-24ca-4af7-acb6-6e9ff9c74dd0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +35,25 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.7/libexec" />
+  <component name="GOROOT" path="D:\Go" />
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1Uk0R5UNt0IdzhGTX26PAEiGUor" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -38,19 +69,7 @@
       <recent name="$PROJECT_DIR$/master" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build etcd-service-discovery" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="etcd-service-discovery" />
       <working_directory value="$PROJECT_DIR$" />
@@ -60,8 +79,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="etcd-service-discovery" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="etcd-service-discovery" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build etcd-service-discovery" />
       </list>
     </recent_temporary>
@@ -69,8 +98,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.io" />
+      </map>
+    </environment>
     <proxy>https://goproxy.io</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2230" y="116" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602831584827">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state x="2230" y="116" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602831584827" />
+    <state x="2660" y="262" key="FileChooserDialogImpl" timestamp="1602831637693">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="262" key="FileChooserDialogImpl/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602831637693" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602832175086">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602832175086" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602832175086">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602832175086" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602832175085">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602832175085" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602832175086">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602832175086" />
+    <state x="2381" y="152" key="SettingsEditor" timestamp="1602831653980">
+      <screen x="1920" y="-12" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="152" key="SettingsEditor/1920.-12.1920.1040/0.0.1920.1040@1920.-12.1920.1040" timestamp="1602831653980" />
   </component>
 </project>

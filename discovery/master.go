@@ -3,7 +3,7 @@ package discovery
 import (
 	"context"
 	"encoding/json"
-	client "github.com/coreos/etcd/clientv3"
+	client "go.etcd.io/etcd/clientv3"
 	"log"
 	"time"
 )
